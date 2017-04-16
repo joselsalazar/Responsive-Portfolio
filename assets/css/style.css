@@ -254,14 +254,81 @@ footer .container p {
 	}
 
 	.side-bar a {
-		margin-right: 2.5%;
+		margin-right: 2.9%;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.container section {
+		display: block;
+		width: 100%;
+	}
+
+	.main-section img {
+		float: left;
+		width: 30%;
+		margin-right: 15px;
+	}
+
+	.side-bar {
+		padding: 15px;
+	}
+
+	.side-bar a {
+		margin-right: 5px;
+	}
+
+	.side-bar h1 {
+		padding-bottom: 5px;
+	}
+
+	.side-bar a img {
+		padding: 10px 0 20px;
+		width: 50px;
+	}
+
+	header nav ul li {
+		margin-right: 0;
+		padding: 0 8px;
+		border-right: 1px solid #ccc;
+	}
+
+	header nav ul li:last-child {
+		padding-right: 0;
+		border: none;
+	}
+
 }
 
 @media screen and (max-width: 640px) {
-	
+	header h1.logo-name,
+	header nav {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	header nav ul li {
+		border: none;
+		padding: 0 15% 15px 0;
+	}
+
+	header nav ul li:last-child {
+		padding-right: 0;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	section.main-section,
+	section.side-bar {
+		width: 85%;
+		margin: 20px auto;
+	}
+
+	.main-section img {
+		display: block;
+		width: 100%;
+	}
 }
