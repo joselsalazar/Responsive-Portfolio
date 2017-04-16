@@ -82,6 +82,7 @@ header nav ul li a:hover {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	width: 150px;
 }
 
 .main-section h1 {
@@ -137,7 +138,8 @@ input,
 textarea {
 	display: block;
 	margin-bottom: 20px;
-	width: 100%;
+	width: 97%;
+	padding: 5px;
 }
 
 input::placeholder {
@@ -225,6 +227,8 @@ footer .container p {
 ==========================*/
 
 @media screen and (max-width: 980px) {
+
+	/* Index and Template */
 	.wrapper {
 		margin-bottom: 30px;
 	}
@@ -256,9 +260,20 @@ footer .container p {
 	.side-bar a {
 		margin-right: 2.9%;
 	}
+
+	/* Portfolio Page */
+
+	.img-div {
+		width: 100%;
+	}
+
+	.img-div p {
+		padding: 5px 0;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	/* Index and Template */
 	.container section {
 		display: block;
 		width: 100%;
@@ -298,9 +313,20 @@ footer .container p {
 		border: none;
 	}
 
+	/* Portfolio Page */
+
+	.img-div {
+		width: 46%;
+	}
+
+	.img-div img {
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 640px) {
+	/* Index and Template */
 	header h1.logo-name,
 	header nav {
 		display: block;
@@ -331,4 +357,11 @@ footer .container p {
 		display: block;
 		width: 100%;
 	}
+
+	/* Portfolio Page */
+	.img-div {
+		width: 100%;
+	}
+
+	
 }
