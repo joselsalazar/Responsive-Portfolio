@@ -225,7 +225,37 @@ footer .container p {
 ==========================*/
 
 @media screen and (max-width: 980px) {
+	.wrapper {
+		margin-bottom: 30px;
+	}
 
+	.main-section img {
+		display: block;
+		width: 100%;
+	}
+
+	.container {
+		width: 80%;
+	}
+
+	.main-section {
+		width: 50%;
+		margin-right: 35px;
+		line-height: 1.7;
+	}
+	
+	.side-bar a img {
+		padding-bottom: 20px;
+		width: 30%;
+	}
+
+	.side-bar {
+		width: 33%;
+	}
+
+	.side-bar a {
+		margin-right: 2.5%;
+	}
 }
 
 @media screen and (max-width: 768px) {
